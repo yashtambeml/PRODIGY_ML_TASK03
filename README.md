@@ -102,14 +102,18 @@ python cnn_svm.py
 ## 🖼️ Sample Output
 
 ```
-Accuracy: 0.93
+🎯 Accuracy: 0.9675
 
-Classification Report:
+📊 Classification Report:
 
               precision    recall  f1-score   support
 
-       Cat       0.92      0.94      0.93
-       Dog       0.94      0.91      0.92
+           0       0.97      0.97      0.97       400
+           1       0.97      0.97      0.97       400
+
+    accuracy                           0.97       800
+   macro avg       0.97      0.97      0.97       800
+weighted avg       0.97      0.97      0.97       800
 ```
 
 ---
